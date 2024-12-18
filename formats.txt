@@ -1,0 +1,35 @@
+XML_DB_FILE
+========
+
+The sample of a some xml db file:
+
+<?xml version="1.0">
+<root>
+	<header>
+	</header>
+	<tree>
+		<node name="email">
+		This node contains all my email accounts
+			<node name="Gmail" key="31ae4810">for a spam</node>
+			<node name="Yandex" key="9078a319"></node>
+			<node name="private">
+			...
+			</node>
+		</node>
+		<node name="skype">
+			<node name="kual-12" key="d0n93120"></node>
+			<node name="ururu" key="0ab5d444"></node>
+		</node>
+		...
+	</tree>
+	<keyents>
+		<ent key="d0n93120">
+			<login>kual-12</login>
+			<password>qwerty</password>
+			<name>Mr. XYZ</name>
+			<email>xyz@gmail.com</email>
+		</ent>
+		...
+	</keyents>
+</root>
+
